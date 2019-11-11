@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24C2159F2FDC60CD5F09269653799547 /* XCTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = B31748B3B55A9F717AF6C8D78E6B7421 /* XCTestView.m */; };
+		24E0E8303C5F23C0534E52958293F3FE /* TLMImageTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5228E14CEECE2489C34C16C7CF66F4A9 /* TLMImageTest-dummy.m */; };
+		2E67F717718927294EEE925DAAFC7125 /* TLMImageTestSecond-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A49FAA15BA05E3FC2670D3BD75C847 /* TLMImageTestSecond-dummy.m */; };
+		385FE8F06FA9402FAF5E6B97D5A5183E /* ImageTest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0FEF20289EC2B0FE84C5BA74D859DA5 /* ImageTest.xcassets */; };
+		60F697DCE4D0D5E31E5840C8C1A9C415 /* XCTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC3F8D0A8DF505FA96573406D3F06E0 /* XCTestView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBE4DCC6D4FB0DF62D543BA33FEF52C5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D7439C6389FD9AB0CF6402F2A388A30E /* ReplaceMe.m */; };
+		D570DA775134851EF4D48F1ACDAE059B /* Pods-RepetitionImageTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 862DBF51AA8AB9BBD481AAB68959D8C4 /* Pods-RepetitionImageTest-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42370DEECB736B37447322180D4B0584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C655DE70752CB6E1F7B1B37B8E6BB0C;
+			remoteInfo = TLMImageTest;
+		};
+		DC346466DF92C6DF0E6189C4C709E121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776471B8438B4D17426C638787497E22;
+			remoteInfo = TLMImageTestSecond;
+		};
+		E37970A4E1E54C06D3294D45234B9A08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5370214B35FEAF78E3CD9FA52950F791;
+			remoteInfo = "TLMImageTest-TLMImageTest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		116B57B74E5655CA52E486A548A09313 /* TLMImageTestSecond-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLMImageTestSecond-prefix.pch"; sourceTree = "<group>"; };
+		27A866EBE5CA6ABBCC8A76588F39DC23 /* Pods-RepetitionImageTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RepetitionImageTest.release.xcconfig"; sourceTree = "<group>"; };
+		2CC94420A4F5C0E019056858A4C9C591 /* Pods-RepetitionImageTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RepetitionImageTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BC3F8D0A8DF505FA96573406D3F06E0 /* XCTestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestView.h; path = TLMImageTest/Classes/XCTestView.h; sourceTree = "<group>"; };
+		405818609BEAD0CF36F36CC6AF226CAE /* Pods-RepetitionImageTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RepetitionImageTest.debug.xcconfig"; sourceTree = "<group>"; };
+		42BC12CD6F451AFF77AB47A05D0D3B48 /* Pods-RepetitionImageTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RepetitionImageTest-resources.sh"; sourceTree = "<group>"; };
+		5228E14CEECE2489C34C16C7CF66F4A9 /* TLMImageTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLMImageTest-dummy.m"; sourceTree = "<group>"; };
+		56AAC959C966BFD92F9F0843E0EA2A6E /* libTLMImageTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTLMImageTest.a; path = libTLMImageTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6337F4F0C55988FBDC8FA25CA08C9D88 /* ResourceBundle-TLMImageTest-TLMImageTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLMImageTest-TLMImageTest-Info.plist"; sourceTree = "<group>"; };
+		71B30929D27F6D2B6AD6EFCBFED7416F /* libTLMImageTestSecond.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTLMImageTestSecond.a; path = libTLMImageTestSecond.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B397E0722BE64DE9536B2F4A54A0736 /* libPods-RepetitionImageTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RepetitionImageTest.a"; path = "libPods-RepetitionImageTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		862DBF51AA8AB9BBD481AAB68959D8C4 /* Pods-RepetitionImageTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RepetitionImageTest-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1A49FAA15BA05E3FC2670D3BD75C847 /* TLMImageTestSecond-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLMImageTestSecond-dummy.m"; sourceTree = "<group>"; };
+		B28E89DFD3B58E1FF483181EC4ACB442 /* TLMImageTest.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TLMImageTest.bundle; path = "TLMImageTest-TLMImageTest.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31748B3B55A9F717AF6C8D78E6B7421 /* XCTestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCTestView.m; path = TLMImageTest/Classes/XCTestView.m; sourceTree = "<group>"; };
+		BF4FA437000DC7F7C48A8793FBE16425 /* Pods-RepetitionImageTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RepetitionImageTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5B52051AFDC455F479A2B3CF4CCD29C /* TLMImageTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLMImageTest.xcconfig; sourceTree = "<group>"; };
+		D7439C6389FD9AB0CF6402F2A388A30E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TLMImageTestSecond/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		D9156BB275B668DF631D1DBFBBEA7F26 /* TLMImageTestSecond.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLMImageTestSecond.xcconfig; sourceTree = "<group>"; };
+		DA7B407406EFDD6CDB2C77A0A10697E7 /* Image.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = TLMImageTestSecond/Assets/Image.xcassets; sourceTree = "<group>"; };
+		E2B95BBC8FDD86BAD9F76421ACA5BB4F /* TLMImageTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLMImageTest-prefix.pch"; sourceTree = "<group>"; };
+		F0FEF20289EC2B0FE84C5BA74D859DA5 /* ImageTest.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = ImageTest.xcassets; path = TLMImageTest/Assets/ImageTest.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40E71355E3151B123ACF22765DD93E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602C0438720BE46C4D5C5892C0701B76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEA2D08E6F5E8C601B47A54946CBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B26EBF123EDD941A2E7A6611667E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15FEFD53C77DADC5D002B1906D48C4D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B397E0722BE64DE9536B2F4A54A0736 /* libPods-RepetitionImageTest.a */,
+				56AAC959C966BFD92F9F0843E0EA2A6E /* libTLMImageTest.a */,
+				71B30929D27F6D2B6AD6EFCBFED7416F /* libTLMImageTestSecond.a */,
+				B28E89DFD3B58E1FF483181EC4ACB442 /* TLMImageTest.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F22AB35BA873C3284AD7216AE7D28CD /* Pods-RepetitionImageTest */ = {
+			isa = PBXGroup;
+			children = (
+				2CC94420A4F5C0E019056858A4C9C591 /* Pods-RepetitionImageTest-acknowledgements.markdown */,
+				BF4FA437000DC7F7C48A8793FBE16425 /* Pods-RepetitionImageTest-acknowledgements.plist */,
+				862DBF51AA8AB9BBD481AAB68959D8C4 /* Pods-RepetitionImageTest-dummy.m */,
+				42BC12CD6F451AFF77AB47A05D0D3B48 /* Pods-RepetitionImageTest-resources.sh */,
+				405818609BEAD0CF36F36CC6AF226CAE /* Pods-RepetitionImageTest.debug.xcconfig */,
+				27A866EBE5CA6ABBCC8A76588F39DC23 /* Pods-RepetitionImageTest.release.xcconfig */,
+			);
+			name = "Pods-RepetitionImageTest";
+			path = "Target Support Files/Pods-RepetitionImageTest";
+			sourceTree = "<group>";
+		};
+		5871C05BCE221BBD503FED247D2F1AE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA7B407406EFDD6CDB2C77A0A10697E7 /* Image.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6167E94151FF8EE7A709604134F61F38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9156BB275B668DF631D1DBFBBEA7F26 /* TLMImageTestSecond.xcconfig */,
+				A1A49FAA15BA05E3FC2670D3BD75C847 /* TLMImageTestSecond-dummy.m */,
+				116B57B74E5655CA52E486A548A09313 /* TLMImageTestSecond-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TLMImageTestSecond";
+			sourceTree = "<group>";
+		};
+		63CA77536FEF2D544F52C6F5EAEE2AF4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F22AB35BA873C3284AD7216AE7D28CD /* Pods-RepetitionImageTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE81920CB8D4AB724C65948560702992 /* TLMImageTest */ = {
+			isa = PBXGroup;
+			children = (
+				3BC3F8D0A8DF505FA96573406D3F06E0 /* XCTestView.h */,
+				B31748B3B55A9F717AF6C8D78E6B7421 /* XCTestView.m */,
+				EF18CF02810C3E8C905DE59999B8E23A /* Resources */,
+				C0CE1B2ABB5BC11E775EAAA480F7B3B3 /* Support Files */,
+			);
+			name = TLMImageTest;
+			path = TLMImageTest;
+			sourceTree = "<group>";
+		};
+		B5377ADDA9FB937A29743E3D2931053E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE81920CB8D4AB724C65948560702992 /* TLMImageTest */,
+				D33DE66832276542997C2BA0AAB9BAF5 /* TLMImageTestSecond */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0CE1B2ABB5BC11E775EAAA480F7B3B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6337F4F0C55988FBDC8FA25CA08C9D88 /* ResourceBundle-TLMImageTest-TLMImageTest-Info.plist */,
+				C5B52051AFDC455F479A2B3CF4CCD29C /* TLMImageTest.xcconfig */,
+				5228E14CEECE2489C34C16C7CF66F4A9 /* TLMImageTest-dummy.m */,
+				E2B95BBC8FDD86BAD9F76421ACA5BB4F /* TLMImageTest-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TLMImageTest";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				B5377ADDA9FB937A29743E3D2931053E /* Pods */,
+				15FEFD53C77DADC5D002B1906D48C4D7 /* Products */,
+				63CA77536FEF2D544F52C6F5EAEE2AF4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D33DE66832276542997C2BA0AAB9BAF5 /* TLMImageTestSecond */ = {
+			isa = PBXGroup;
+			children = (
+				D7439C6389FD9AB0CF6402F2A388A30E /* ReplaceMe.m */,
+				5871C05BCE221BBD503FED247D2F1AE3 /* Resources */,
+				6167E94151FF8EE7A709604134F61F38 /* Support Files */,
+			);
+			name = TLMImageTestSecond;
+			path = TLMImageTestSecond;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF18CF02810C3E8C905DE59999B8E23A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0FEF20289EC2B0FE84C5BA74D859DA5 /* ImageTest.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		31B3B4903CBAE1E83F4160DED086A960 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D448A07861E6677B8BEB32BEE2083742 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC449CF439FD634456D23F34CD9976B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F697DCE4D0D5E31E5840C8C1A9C415 /* XCTestView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C655DE70752CB6E1F7B1B37B8E6BB0C /* TLMImageTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EA7CE83B70F4296B938327365ECCA2 /* Build configuration list for PBXNativeTarget "TLMImageTest" */;
+			buildPhases = (
+				DC449CF439FD634456D23F34CD9976B9 /* Headers */,
+				95DF188CB0B1F362F22CD1472F287781 /* Sources */,
+				BDCEA2D08E6F5E8C601B47A54946CBEF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98A388EA15C2AD0158BC75339A686C8A /* PBXTargetDependency */,
+			);
+			name = TLMImageTest;
+			productName = TLMImageTest;
+			productReference = 56AAC959C966BFD92F9F0843E0EA2A6E /* libTLMImageTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5370214B35FEAF78E3CD9FA52950F791 /* TLMImageTest-TLMImageTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3B5FC73002C8A21B79B7569716B7A1 /* Build configuration list for PBXNativeTarget "TLMImageTest-TLMImageTest" */;
+			buildPhases = (
+				74584C18741523BDB9B090EADB091B34 /* Sources */,
+				40E71355E3151B123ACF22765DD93E28 /* Frameworks */,
+				96980B7371572785DA1274250E1810A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TLMImageTest-TLMImageTest";
+			productName = "TLMImageTest-TLMImageTest";
+			productReference = B28E89DFD3B58E1FF483181EC4ACB442 /* TLMImageTest.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		776471B8438B4D17426C638787497E22 /* TLMImageTestSecond */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1134A38153031DBFF2CDF4CE44BBBE15 /* Build configuration list for PBXNativeTarget "TLMImageTestSecond" */;
+			buildPhases = (
+				D448A07861E6677B8BEB32BEE2083742 /* Headers */,
+				8E6413515323EF0C6DFD4286D60350FC /* Sources */,
+				C9B26EBF123EDD941A2E7A6611667E01 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLMImageTestSecond;
+			productName = TLMImageTestSecond;
+			productReference = 71B30929D27F6D2B6AD6EFCBFED7416F /* libTLMImageTestSecond.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		92599CCC94F930A4ED040E85BE22E9EA /* Pods-RepetitionImageTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228A5C60318AB965D51099E0AAA72120 /* Build configuration list for PBXNativeTarget "Pods-RepetitionImageTest" */;
+			buildPhases = (
+				31B3B4903CBAE1E83F4160DED086A960 /* Headers */,
+				A951530558B6D583CBA6ACD8E28EB5C3 /* Sources */,
+				602C0438720BE46C4D5C5892C0701B76 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31D30E16C39BD87A22F45F3B1BDC75F /* PBXTargetDependency */,
+				51E7617644309756DE2C70E5148C3D12 /* PBXTargetDependency */,
+			);
+			name = "Pods-RepetitionImageTest";
+			productName = "Pods-RepetitionImageTest";
+			productReference = 7B397E0722BE64DE9536B2F4A54A0736 /* libPods-RepetitionImageTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 15FEFD53C77DADC5D002B1906D48C4D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92599CCC94F930A4ED040E85BE22E9EA /* Pods-RepetitionImageTest */,
+				3C655DE70752CB6E1F7B1B37B8E6BB0C /* TLMImageTest */,
+				5370214B35FEAF78E3CD9FA52950F791 /* TLMImageTest-TLMImageTest */,
+				776471B8438B4D17426C638787497E22 /* TLMImageTestSecond */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96980B7371572785DA1274250E1810A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385FE8F06FA9402FAF5E6B97D5A5183E /* ImageTest.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74584C18741523BDB9B090EADB091B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6413515323EF0C6DFD4286D60350FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE4DCC6D4FB0DF62D543BA33FEF52C5 /* ReplaceMe.m in Sources */,
+				2E67F717718927294EEE925DAAFC7125 /* TLMImageTestSecond-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DF188CB0B1F362F22CD1472F287781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E0E8303C5F23C0534E52958293F3FE /* TLMImageTest-dummy.m in Sources */,
+				24C2159F2FDC60CD5F09269653799547 /* XCTestView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A951530558B6D583CBA6ACD8E28EB5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D570DA775134851EF4D48F1ACDAE059B /* Pods-RepetitionImageTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51E7617644309756DE2C70E5148C3D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLMImageTestSecond;
+			target = 776471B8438B4D17426C638787497E22 /* TLMImageTestSecond */;
+			targetProxy = DC346466DF92C6DF0E6189C4C709E121 /* PBXContainerItemProxy */;
+		};
+		98A388EA15C2AD0158BC75339A686C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TLMImageTest-TLMImageTest";
+			target = 5370214B35FEAF78E3CD9FA52950F791 /* TLMImageTest-TLMImageTest */;
+			targetProxy = E37970A4E1E54C06D3294D45234B9A08 /* PBXContainerItemProxy */;
+		};
+		D31D30E16C39BD87A22F45F3B1BDC75F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLMImageTest;
+			target = 3C655DE70752CB6E1F7B1B37B8E6BB0C /* TLMImageTest */;
+			targetProxy = 42370DEECB736B37447322180D4B0584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2950B50739D1E239178B016DEDC1C14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9156BB275B668DF631D1DBFBBEA7F26 /* TLMImageTestSecond.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TLMImageTestSecond/TLMImageTestSecond-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TLMImageTestSecond;
+				PRODUCT_NAME = TLMImageTestSecond;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4397576DDF547C1F1398A9C0EBB827ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9156BB275B668DF631D1DBFBBEA7F26 /* TLMImageTestSecond.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TLMImageTestSecond/TLMImageTestSecond-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TLMImageTestSecond;
+				PRODUCT_NAME = TLMImageTestSecond;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FEF490118221F40EA5162C8B2D5673A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B52051AFDC455F479A2B3CF4CCD29C /* TLMImageTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TLMImageTest/TLMImageTest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TLMImageTest;
+				PRODUCT_NAME = TLMImageTest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53460E22BDDAF1B215A5EFC1DC92EC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		82EBBBE4695DCF910FF92E723E19995D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A866EBE5CA6ABBCC8A76588F39DC23 /* Pods-RepetitionImageTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E704E99D32B43F3DA54354785DE313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D149818BE78BDD2E298D0B712922036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B52051AFDC455F479A2B3CF4CCD29C /* TLMImageTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLMImageTest";
+				INFOPLIST_FILE = "Target Support Files/TLMImageTest/ResourceBundle-TLMImageTest-TLMImageTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TLMImageTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E63F40C461BE2B1CE320438BCABB3F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B52051AFDC455F479A2B3CF4CCD29C /* TLMImageTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TLMImageTest/TLMImageTest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TLMImageTest;
+				PRODUCT_NAME = TLMImageTest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7F2524D1802ABB877500D1A7C9C6302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405818609BEAD0CF36F36CC6AF226CAE /* Pods-RepetitionImageTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC69C178310C48CA744B106F2F1B8EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B52051AFDC455F479A2B3CF4CCD29C /* TLMImageTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLMImageTest";
+				INFOPLIST_FILE = "Target Support Files/TLMImageTest/ResourceBundle-TLMImageTest-TLMImageTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TLMImageTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1134A38153031DBFF2CDF4CE44BBBE15 /* Build configuration list for PBXNativeTarget "TLMImageTestSecond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4397576DDF547C1F1398A9C0EBB827ED /* Debug */,
+				2950B50739D1E239178B016DEDC1C14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228A5C60318AB965D51099E0AAA72120 /* Build configuration list for PBXNativeTarget "Pods-RepetitionImageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F2524D1802ABB877500D1A7C9C6302 /* Debug */,
+				82EBBBE4695DCF910FF92E723E19995D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EA7CE83B70F4296B938327365ECCA2 /* Build configuration list for PBXNativeTarget "TLMImageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEF490118221F40EA5162C8B2D5673A /* Debug */,
+				E63F40C461BE2B1CE320438BCABB3F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53460E22BDDAF1B215A5EFC1DC92EC0A /* Debug */,
+				A4E704E99D32B43F3DA54354785DE313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B3B5FC73002C8A21B79B7569716B7A1 /* Build configuration list for PBXNativeTarget "TLMImageTest-TLMImageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC69C178310C48CA744B106F2F1B8EC0 /* Debug */,
+				D149818BE78BDD2E298D0B712922036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

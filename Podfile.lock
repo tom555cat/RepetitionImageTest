@@ -1,0 +1,29 @@
+PODS:
+  - TLMImageTest (0.1.0)
+  - TLMImageTestSecond (0.1.0)
+
+DEPENDENCIES:
+  - TLMImageTest (from `https://github.com/tom555cat/TLMImageTest.git`)
+  - TLMImageTestSecond (from `https://github.com/tom555cat/TLMImageTestSecond.git`)
+
+EXTERNAL SOURCES:
+  TLMImageTest:
+    :git: https://github.com/tom555cat/TLMImageTest.git
+  TLMImageTestSecond:
+    :git: https://github.com/tom555cat/TLMImageTestSecond.git
+
+CHECKOUT OPTIONS:
+  TLMImageTest:
+    :commit: 065c82d719995051df0cce04e63fec332c5bb7d9
+    :git: https://github.com/tom555cat/TLMImageTest.git
+  TLMImageTestSecond:
+    :commit: 351dec1a50533551772501dd09d0ad6bfc1be7ce
+    :git: https://github.com/tom555cat/TLMImageTestSecond.git
+
+SPEC CHECKSUMS:
+  TLMImageTest: 243104dd059857dfea7298b4e1bc61329190ac0a
+  TLMImageTestSecond: 661d23da7dde9c61863cd4da780277fb43717b74
+
+PODFILE CHECKSUM: cc83e7f422b61458519b7cb3b178e3432430a5f1
+
+COCOAPODS: 1.6.1
